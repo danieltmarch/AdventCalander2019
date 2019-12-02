@@ -1,14 +1,11 @@
 // adventCalander.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
-using namespace std;
+#include "day1.h"
 
-//function prototype
-int handleMass(int, int	);
+int handleMass(int mass, int sum);
 
-//main() is the entry point of the program
-int main()
+int day1Main()
 {
 	int mass = 1; //mass of the rocket
 	int fuelTotal = 0;
@@ -19,6 +16,7 @@ int main()
 		fuelTotal = handleMass(mass, fuelTotal);
 		cout << " Fuel Total: " << fuelTotal << endl;
 	}
+	return 1;
 }
 
 //adds mass of a module and subsequent fuel mass until fuel mass is 0 or less.
