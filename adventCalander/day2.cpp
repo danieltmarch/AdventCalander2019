@@ -1,7 +1,7 @@
 #include "day2.h"
 
-void part1();
-void part2();
+void day2Part1();
+void day2Part2();
 
 int day2Main()
 {
@@ -11,16 +11,16 @@ int day2Main()
 	
 	if (partNumber == 1)
 	{
-		part1();
+		day2Part1();
 	}
 	else { //part2
-		part2();
+		day2Part2();
 	}
 
 	return 1;
 }
 
-void part1()
+void day2Part1()
 {
 	string input;
 	string partialString; //used to find each seperate input number so we can place into the array (actually a vector)
@@ -75,7 +75,7 @@ void part1()
 	cout << '\b'; //erase comma
 }
 
-void part2()
+void day2Part2()
 {
 
 }
