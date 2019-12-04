@@ -3,6 +3,7 @@
 #include "day1.h"
 #include "day2.h"
 #include "day3.h"
+#include "day4.h"
 
 using namespace std;
 
@@ -22,5 +23,8 @@ int main()
 		case 3:
 			cout << "Day 3:" << endl << endl;
 			day3Main();
+		case 4:
+			cout << "Day 4:" << endl << endl;
+			day4Main();
 	}
 }
